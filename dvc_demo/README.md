@@ -9,6 +9,6 @@
 ### Configure Remote Drive
 
 - pip install dvc[gdrive]
-- dvc remote add -d dvc_remote gdrive://1OZhZXC-0YBmDskRMlkx2NS3WUe2yzKOp
+- dvc remote add -d dvc_remote gdrive://[Folder ID]
 - git commit .dvc/config -m "config remote storage"
 - dvc push (authentication required)
